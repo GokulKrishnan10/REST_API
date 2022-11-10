@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/636c44e61d9abab3d381b0af
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+
+{
+    "name":"krish",
+    "subscribedToChannel":"FireShip"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/636c45dadf8d8ae5ffd974fd
+
+###
+
+PATCH http://localhost:3000/subscribers/636c44e61d9abab3d381b0af
+Content-Type: application/json
+
+{
+    "name":"Gokula Krishnan E"
+}
